@@ -1,9 +1,12 @@
+import Home from "./Home";
 
 
 function App() {
+  const username = "Aasif"
   return (
     <>
-    <h1>Hello vite react app</h1>
+    <Home/>
+    <h1>Hello vite react app {username}</h1>
     </>
   )
 }

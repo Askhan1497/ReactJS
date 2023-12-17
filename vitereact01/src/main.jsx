@@ -24,10 +24,12 @@ import ReactDOM from 'react-dom/client'
 //   <a href="https://google.com" target="_blank">Visit google page</a>
 // )
 
+const anotherusername = "Aasif khan";
 const reactElement = React.createElement(
   'a',
   {href: "https://google.com", target: "_blank"},
-  'click me to visit google.com'
+  'click me to visit google.com',
+  anotherusername
 )
 ReactDOM.createRoot(document.getElementById('root')).render(
   reactElement
